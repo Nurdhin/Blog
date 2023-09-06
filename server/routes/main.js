@@ -73,7 +73,7 @@ router.get('/about', (req, res) => {
 })
 
 router.get('/contact', (req, res) => {
-  res.render('about', { currentRoute: '/contact' })
+  res.render('contact', { currentRoute: '/contact' })
 })
 
 // insertPostData()
